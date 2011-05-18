@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-void jack(char *name)
+void jack(char *name, int N)
 {
-  printf("All work and no play makes %s a dull boy", name);
+  int i;
+  for (i = 0; i < N; i++) 
+    printf("All work and no play makes %s a dull boy", name);
 }
