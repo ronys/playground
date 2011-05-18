@@ -1,5 +1,9 @@
 # Makefile for playground
+PROG=playground
 
-playground: main.o play.o ground.o
+$(PROG): main.o play.o ground.o
 	$(CC) $(CFLAGS) -o $@ $^
+
+clean:
+	rm *.o $(PROG)
 
