@@ -2,11 +2,12 @@
 
 extern char *play();
 extern char *ground();
+extern void jack();
 
 int main()
 {
   printf("Welcome to Git's %s%s!\n", play(), ground());
-  printf("All work and no play makes Jack a dull boy.");
+  jack();
   return 0;
 }
 
