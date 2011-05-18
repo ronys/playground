@@ -7,7 +7,7 @@ extern void jack();
 int main()
 {
   printf("Welcome to Git's %s%s!\n", play(), ground());
-  jack();
+  jack(argv[1]);
   return 0;
 }
 
